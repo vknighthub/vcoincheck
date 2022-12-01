@@ -14,7 +14,7 @@ const Meta = ({ title, keyword, desc, image }) => {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={desc} />
         <meta property="og:image" content={image} />
-
+        <meta property="og:image:secure_url" content={image} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="vcoincheck.io" />
         <meta property="twitter:url" content="https://vcoincheck.io/" />
