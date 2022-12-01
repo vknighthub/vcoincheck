@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslation } from 'next-i18next'
 
-const Asideleft = ({ t }) => {
-
+const Asideleft = () => {
+    const { t } = useTranslation(['common'])
     return (
         <div className="login-aside-left" style={{ backgroundImage: "url(" + 'images/bg-login2.png' + ")" }}>
             <Link href={"#"} className="login-logo">
