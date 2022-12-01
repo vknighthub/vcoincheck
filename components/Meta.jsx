@@ -31,7 +31,7 @@ Meta.defaultProps = {
   title: "vCoinCheck",
   keyword: "VcoinCheck",
   desc: "vCoinCheck is a website built with content from the community. Those who want to know if a Blockchain project is good or not can evaluate Blockchain projects for themselves by answering the questions in Vcoincheck. Vcoincheck will let users know if the project is good or not through the user's answers. In addition, the community can see the reviews of knowledgeable people to get objective information about a project",
-  image: "https://vcoincheck.io/static/media/logo128.46a7870a.svg"
+  image: "https://i.ibb.co/SRV3JTM/vcoincheck.png"
 };
 
 export default Meta;
